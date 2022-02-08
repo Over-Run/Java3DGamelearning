@@ -8,6 +8,8 @@ public class WindowHandle {
 	public native void glEnd();
 	public native void glfwSwapBuffers();
 	public native void glfwPollEvents();
+	public native void glVertex3d(double x, double y, double z);
+	public native void glColor3d(double r, double g, double b);
 	public native void glBegin();
 	public native void glClear(int mask);
 	public native void glVertex2d(double x, double y);

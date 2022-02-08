@@ -49,6 +49,22 @@ JNIEXPORT void JNICALL Java_io_github_overrun_java3DGameLearning_natives_WindowH
 
 /*
  * Class:     io_github_overrun_java3DGameLearning_natives_WindowHandle
+ * Method:    glVertex3d
+ * Signature: (DDD)V
+ */
+JNIEXPORT void JNICALL Java_io_github_overrun_java3DGameLearning_natives_WindowHandle_glVertex3d
+  (JNIEnv *, jobject, jdouble, jdouble, jdouble);
+
+/*
+ * Class:     io_github_overrun_java3DGameLearning_natives_WindowHandle
+ * Method:    glColor3d
+ * Signature: (DDD)V
+ */
+JNIEXPORT void JNICALL Java_io_github_overrun_java3DGameLearning_natives_WindowHandle_glColor3d
+  (JNIEnv *, jobject, jdouble, jdouble, jdouble);
+
+/*
+ * Class:     io_github_overrun_java3DGameLearning_natives_WindowHandle
  * Method:    glBegin
  * Signature: ()V
  */
