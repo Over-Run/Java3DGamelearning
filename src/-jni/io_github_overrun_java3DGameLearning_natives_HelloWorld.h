@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     io_github_overrun_java3DGameLearning_natives_HelloWorld
  * Method:    printHelloWorld
- * Signature: ()V
+ * Signature: (Ljava/lang/String;)V
  */
 JNIEXPORT void JNICALL Java_io_github_overrun_java3DGameLearning_natives_HelloWorld_printHelloWorld
-  (JNIEnv *, jobject);
+  (JNIEnv *, jobject, jstring);
 
 #ifdef __cplusplus
 }
